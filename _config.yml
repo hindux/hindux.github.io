@@ -4,11 +4,11 @@ title: "Hindux"
 description: "Learn linux with termux"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: "https://hindux.github.io"
-#url: "http://127.0.0.1:4000"
+baseurl: ""
+url: "https://hindux.github.io"
 google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+disqus: 'hindux'
+mailchimp-list: 'https://github.us8.list-manage.com/subscribe/post?u=453c83341cc15b30c5f954c26&amp;id=fd1d0e0d3f'
 include: ["_pages"]
 permalink: /:title/
 
