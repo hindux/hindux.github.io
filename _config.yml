@@ -4,7 +4,7 @@ title: "Hindux"
 description: "Learn linux with termux"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: "hindux.github.io"
+baseurl: "https://hindux.github.io"
 #url: "http://127.0.0.1:4000"
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
