@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: Learn more earn more
 permalink: /about
 comments: true
 ---
