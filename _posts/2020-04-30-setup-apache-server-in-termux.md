@@ -90,7 +90,7 @@ you can download ngrok executable by official site , for downloading ngrok in an
 ```
 cd ~/
 wget --no-check-certificate https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
-unzip ngrk-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip
 ```
 now execute `./ngrok http 8080`
 it prompt and connecting to his server and making tunnel, and it provide you ,link like https://ishsksbsks.ngrok.io but not this one
