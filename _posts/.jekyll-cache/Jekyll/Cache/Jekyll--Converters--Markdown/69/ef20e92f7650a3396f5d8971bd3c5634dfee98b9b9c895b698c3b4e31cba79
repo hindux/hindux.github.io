@@ -1,0 +1,22 @@
+I"<h4 id="follow-now">follow now</h4>
+<p>The term chroot refers to a process of creating a virtualized environment in a Unix operating system, separating it from the main operating system and directory structure. that’s why we can use it separtely for many purposes like testings,building etc</p>
+
+<p>Now before doing anything you must have your termux repo updated and pulseaudio installed
+for install pulseaudio ,execute following script</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pkg install pulseaudio -y
+
+</code></pre></div></div>
+<p>Now copy and paste follwing command in terminal</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pulseaudio --start --exit-idle-time=-1
+pacmd load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1
+</code></pre></div></div>
+
+<p>after that make sure you havent get any error.
+now open chroot ,i mean your linux which you have installed in termux(smart geek)
+and set the pulse server</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export PULSE_SERVER=127.0.0.1
+</code></pre></div></div>
+<p>your setup has finished ,play audio in linux ,the audio should works.
+if that does’t work please contact us.</p>
+
+:ET
