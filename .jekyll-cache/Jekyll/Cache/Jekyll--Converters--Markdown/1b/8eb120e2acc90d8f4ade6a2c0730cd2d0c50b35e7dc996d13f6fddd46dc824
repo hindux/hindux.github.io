@@ -1,4 +1,4 @@
-I"•<h4 id="what-is-apache-server-">What is apache server ?</h4>
+I"„<h4 id="what-is-apache-server-">What is apache server ?</h4>
 <blockquote>
   <p>The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server software, released under the terms of Apache License 2.0. Apache is developed and maintained by an open community of developers under the auspices of the Apache Software Foundation</p>
 </blockquote>
@@ -92,7 +92,7 @@ it prompt and connecting to his server and making tunnel, and it provide you ,li
 ngrok has limitation for free account.</p>
 
 <p>i use this for demo only, you can other service or port forwarding from router and use <a href="https://freedns.afraid.org/">freedns</a> as dynamic dns server for updating your ips,
-<a href="/Hindux.github.io/setup-php-with-apache-in-termux/">integrate php with apache</a>
+<a href="/setup-php-with-apache-in-termux/">integrate php with apache</a>
 <strong>i hope you enjoyed this tutorial</strong>*</p>
 
 <p><strong>Enlighten others by sharing it</strong>*</p>

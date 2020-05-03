@@ -1,4 +1,4 @@
-I"p&
+I"¬.
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
@@ -6,6 +6,10 @@
         <h2><span>Featured</span></h2>
     </div>
     <div class="row">
+
+    
+
+        
 
     
 
@@ -19,9 +23,9 @@
             <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
                 <div class="h-100">
                     <div class="wrapthumbnail">
-                        <a href="/Hindux.github.io/setup-php-with-apache-in-termux/">
+                        <a href="/setup-php-with-apache-in-termux/">
                             
-                            <img class="featured-box-img-cover" src="/Hindux.github.io/assets/images/php-apache.jpg" />
+                            <img class="featured-box-img-cover" src="/assets/images/php-apache.jpg" />
                             
                         </a>
                     </div>
@@ -32,7 +36,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h2 class="card-title">
-                                <a class="text-dark" href="/Hindux.github.io/setup-php-with-apache-in-termux/">How to integrate php and apache in linux and termux.</a>
+                                <a class="text-dark" href="/setup-php-with-apache-in-termux/">How to integrate php and apache in linux and termux.</a>
                                 
                                 <div class="mb-2 mt-2 font-weight-normal">
                                 <div class="rating-holder">
@@ -56,7 +60,7 @@
                                 
                                 <span class="meta-footer-thumb">
                                 
-                                <img class="author-thumb" src="/Hindux.github.io/assets/images/krishna.jpeg" alt="Krishna" />
+                                <img class="author-thumb" src="/assets/images/krishna.jpeg" alt="Krishna" />
                                 
                                 </span>
                                 <span class="author-meta">
@@ -64,7 +68,7 @@
                                 
                                 <span class="post-date">30 Apr 2020</span>
                                 </span>
-                                <span class="post-read-more"><a href="/Hindux.github.io//setup-php-with-apache-in-termux/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                                <span class="post-read-more"><a href="//setup-php-with-apache-in-termux/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
@@ -94,9 +98,9 @@
             <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
                 <div class="h-100">
                     <div class="wrapthumbnail">
-                        <a href="/Hindux.github.io/play-audio-in-termux-chroot/">
+                        <a href="/play-audio-in-termux-chroot/">
                             
-                            <img class="featured-box-img-cover" src="/Hindux.github.io/assets/images/audio.png" />
+                            <img class="featured-box-img-cover" src="/assets/images/audio.png" />
                             
                         </a>
                     </div>
@@ -107,7 +111,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h2 class="card-title">
-                                <a class="text-dark" href="/Hindux.github.io/play-audio-in-termux-chroot/">How to play audio in termux chroot or proot OS like Arch Debian Ubuntu etc</a>
+                                <a class="text-dark" href="/play-audio-in-termux-chroot/">How to play audio in termux chroot or proot OS like Arch Debian Ubuntu etc</a>
                                 
                                 <div class="mb-2 mt-2 font-weight-normal">
                                 <div class="rating-holder">
@@ -130,7 +134,7 @@
                                 
                                 <span class="meta-footer-thumb">
                                 
-                                <img class="author-thumb" src="/Hindux.github.io/assets/images/krishna.jpeg" alt="Krishna" />
+                                <img class="author-thumb" src="/assets/images/krishna.jpeg" alt="Krishna" />
                                 
                                 </span>
                                 <span class="author-meta">
@@ -138,7 +142,7 @@
                                 
                                 <span class="post-date">29 Apr 2020</span>
                                 </span>
-                                <span class="post-read-more"><a href="/Hindux.github.io//play-audio-in-termux-chroot/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                                <span class="post-read-more"><a href="//play-audio-in-termux-chroot/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
@@ -177,11 +181,11 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/Hindux.github.io/setup-apache-server-in-termux/">
+            <a href="/setup-gui-in-termux/">
                 
 
                     
-                        <img class="img-fluid" src="/Hindux.github.io/assets/images/apache.jpg" alt="How to setup apache server in termux." /> 
+                        <img class="img-fluid" src="//assets/images/vnc.jpg" alt="Setup Gui ,vncserver,x11 and desktop environment in termux" /> 
                     
 
                 
@@ -189,7 +193,67 @@
         </div>
         <div class="card-body">
             <h2 class="card-title">
-                <a class="text-dark" href="/Hindux.github.io/setup-apache-server-in-termux/">How to setup apache server in termux.</a>
+                <a class="text-dark" href="/setup-gui-in-termux/">Setup Gui ,vncserver,x11 and desktop environment in termux</a>
+                
+                <div class="mb-2 mt-2 font-weight-normal">
+                <div class="rating-holder">
+<div class="c-rating c-rating--regular" data-rating-value="4.5">
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+</div>
+</div>
+                </div>
+                
+            </h2>
+            <h4 class="card-text">This is world of Graphical User Interface, everyone like gui program
+ so similar to linux ,termux have also lotâ€™s of gui program in the separate repo
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/assets/images/krishna.jpeg" alt="Krishna" />
+                
+                </span>
+                <span class="author-meta">
+                <span class="post-name"><a target="_blank" href="">Krishna</a></span><br />
+                
+                <span class="post-date">03 May 2020</span>
+                </span>
+                <span class="post-read-more"><a href="/setup-gui-in-termux/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+        
+
+        <!-- begin post -->
+
+
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/setup-apache-server-in-termux/">
+                
+
+                    
+                        <img class="img-fluid" src="/assets/images/apache.jpg" alt="How to setup apache server in termux." /> 
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/setup-apache-server-in-termux/">How to setup apache server in termux.</a>
                 
                 <div class="mb-2 mt-2 font-weight-normal">
                 <div class="rating-holder">
@@ -211,7 +275,7 @@
                 
                 <span class="meta-footer-thumb">
                 
-                <img class="author-thumb" src="/Hindux.github.io/assets/images/krishna.jpeg" alt="Krishna" />
+                <img class="author-thumb" src="/assets/images/krishna.jpeg" alt="Krishna" />
                 
                 </span>
                 <span class="author-meta">
@@ -219,7 +283,7 @@
                 
                 <span class="post-date">30 Apr 2020</span>
                 </span>
-                <span class="post-read-more"><a href="/Hindux.github.io/setup-apache-server-in-termux/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                <span class="post-read-more"><a href="/setup-apache-server-in-termux/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                 <div class="clearfix"></div>
             </div>
         </div>

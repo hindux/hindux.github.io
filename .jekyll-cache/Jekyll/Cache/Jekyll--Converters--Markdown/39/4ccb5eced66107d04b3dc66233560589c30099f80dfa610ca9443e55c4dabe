@@ -1,4 +1,4 @@
-I"õ<p>As we know without backend language webserver is nothing, and php as backened language fulfill your all requirements with webserver, then letâ€™s go</p>
+I"ä<p>As we know without backend language webserver is nothing, and php as backened language fulfill your all requirements with webserver, then letâ€™s go</p>
 
 <h4 id="requirements">Requirements</h4>
 <p>Termux provide a separate package for php and Apache in which all requirements install automatically by that package.
@@ -9,7 +9,7 @@ the name of that package is <strong>php-apache</strong>  By the way it contains 
 </pre></td><td class="rouge-code"><pre>pkg install php-apache
 
 </pre></td></tr></tbody></table></code></pre></div></div>
-<p>and now copy and following in httpd.conf, as i mention in my old <a href="/Hindux.github.io/setup-apache-server-in-termux">tutorial</a>
+<p>and now copy and following in httpd.conf, as i mention in my old <a href="/setup-apache-server-in-termux">tutorial</a>
 after that paste following in httpd.conf in last line.</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
