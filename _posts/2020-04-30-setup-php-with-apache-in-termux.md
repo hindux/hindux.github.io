@@ -33,6 +33,11 @@ LoadModule php7_module libexec/apache2/libphp7.so
 </IfModule>
 ```
 
+and uncomment mpm prefork module and comment mpm worker modules, these two module may found in line 66 and 67 in httpd.conf.
+```
+LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
+# LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
+```
 now the php has linked with apache server, go to document root, the default custom root of apache is `/data/data/com.termux/files/usr/share/apache2/default-site/htdocs`
 
 
