@@ -2,7 +2,7 @@
 layout: post
 comment: true
 title: "Setup termux-styling and change your termux looks"
-description: "setup termux-styling ,give a unique lokks of your terminal , setup termux-styling for free and change font and cor with script"
+description: "setup termux-styling ,give unique looks of your terminal , setup termux-styling for free and change font and color with script"
 author: kcubeterm
 category: termux
 tags: [termux,style,]
