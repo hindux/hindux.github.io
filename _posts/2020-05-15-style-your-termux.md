@@ -24,7 +24,7 @@ I want to tell you that it's not fault or intentions of termux developers, its a
 #### Install it for free
 Now we know that termux styling is't a free applications, But in reality, its free
 . Termux is an open source project that's why we should donate, you can donate by purchasing apps from playstore
-or by https://termux.com/donate.html
+or by [Donate in Termux projects](https://termux.com/donate.html)
 
 For installing application for free, Termux developer uploads termux app and its addon on two platfrom first is google playstore and second is fdroid
 
