@@ -59,10 +59,10 @@ Here i mean, just uninstall all your termux and its addon, make sure all addon m
 * Termux:api
 
 ##### install stuff
-Now it's time to install things,I signed all apk with same signature, diwnliad it from my [cloud server link ](https://mega.nz/folder/7dggHIKJ#nXq5Gs9BJLdqn4kRmgTkpA)
-i signed all apk with apksigner default key, The reason behind it is simple, if any user want to update his app in termux then can download from fdroid and sign with apksigner apps availabe in playstore.
+Now it's time to install things,I signed all apk with same signature, download it from my [cloud server link ](https://mega.nz/folder/7dggHIKJ#nXq5Gs9BJLdqn4kRmgTkpA)
+i signed all apk with apksigner default key, The reason behind it is simple, if any user want to update his app in future then can download from fdroid and sign with apksigner apps availabe in playstore.
 [apksigner link](https://play.google.com/store/apps/details?id=com.haibison.apksigner)
-
+That's why i didn't sign with any terminal tool.
 
 
 ##### Restore your backup now
