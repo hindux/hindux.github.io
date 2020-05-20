@@ -1,4 +1,4 @@
-I"U<h4 id="what-is-apache-server-">What is apache server ?</h4>
+I"V<h4 id="what-is-apache-server-">What is apache server ?</h4>
 <blockquote>
   <p>The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server software, released under the terms of Apache License 2.0. Apache is developed and maintained by an open community of developers under the auspices of the Apache Software Foundation</p>
 </blockquote>
@@ -68,7 +68,7 @@ if you connect with hotspot and wifi then your server can be access from other d
 <p>you can download ngrok executable by official site , for downloading ngrok in android</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/
 wget --no-check-certificate https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
-unzip ngrk-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip
 </code></pre></div></div>
 <p>now execute <code class="highlighter-rouge">./ngrok http 8080</code>
 it prompt and connecting to his server and making tunnel, and it provide you ,link like https://ishsksbsks.ngrok.io but not this one</p>
