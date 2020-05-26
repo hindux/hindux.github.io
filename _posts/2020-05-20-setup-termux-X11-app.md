@@ -63,7 +63,9 @@ Now it's time to install things,I signed all apk with same signature, download i
 i signed all apk with apksigner default key, The reason behind it is simple, if any user want to update his app in future then can download from fdroid and sign with apksigner apps availabe in playstore.
 [apksigner link](https://play.google.com/store/apps/details?id=com.haibison.apksigner)
 That's why i didn't sign with any terminal tool.
-
+##### Termux:api SMS
+If you want to enable sms features in termux then you can download termux api with above link or [cloud server link ](https://mega.nz/folder/7dggHIKJ#nXq5Gs9BJLdqn4kRmgTkpA)
+This termux api is latest version and recompiled in order to get sms features
 
 ##### Restore your backup now
 I have mentioned above,
