@@ -1,4 +1,4 @@
-I"†]
+I"b^
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
@@ -21,7 +21,7 @@
                     <div class="wrapthumbnail">
                         <a href="/termux-tutorial-begginers/">
                             
-                            <img class="featured-box-img-cover" src="/" />
+                            <img class="featured-box-img-cover" src="/assets/images/Termux_begginer.jpg" />
                             
                         </a>
                     </div>
@@ -319,6 +319,12 @@
     <div class="card h-100">
         <div class="maxthumb">
             <a href="/termux-tutorial-begginers/">
+                
+
+                    
+                        <img class="img-fluid" src="/assets/images/Termux_begginer.jpg" alt="Termux guide for begginers " /> 
+                    
+
                 
             </a>
         </div>

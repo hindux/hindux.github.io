@@ -1,0 +1,82 @@
+I"�<p>This guide would be dive into the beautiful world of termux and explains all concepts abouts termux and its addon.</p>
+
+<h4 id="what-is-termux-">What is termux ?</h4>
+<p>Before going into deep ,we should know that what exactly termux is, Termux is a very powerful linux terminal emulator which runs in android,</p>
+<blockquote>
+  <p>Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically - additional packages are available using the APT package manager.</p>
+</blockquote>
+
+<p>Yes, termux is not just a simple terminal , it has own packages, it has above 1000+ packages, that’s why popularity are increasing day by day.</p>
+
+<h4 id="what-is-different-from-standard-linux-">What is different from standard linux ?</h4>
+<p>Offcourse it is different from linux in many aspects. As we know linux is OS but termux is just an android application which has to follow android restriction, in order to provide similar linux environment in android. It has all directory in $PREFIX , 
+You may know if you have ever run linux  ,linux has /bin,/usr/ ,/share /etc all has in its root directory,but in unrooted device it’s impossible to write and execute program in android root directory , so termux has it’s own environment.</p>
+
+<p>Here $PREFIX stands,8</p>
+
+<p>o for /data/data/com.termux/files/usr/</p>
+
+<p>and all directory in $PREFIX,because any android app can read, write , execute in his /data/ partition</p>
+
+<p>$PREFIX/bin
+$PREFIX/etc
+$PREFIX/share
+$PREFIX/var</p>
+
+<p>for more info I suggest you must visit <a href="https://wiki.termux.com/wiki/Differences_from_Linux">termux-wiki</a></p>
+
+<h4 id="termux-addon">Termux: addon</h4>
+<p>So termux has some additional apps also known as “addon”, addons fulfill some requirement of termux and adds some more features in termux which usually not find in any android terminal</p>
+
+<ul>
+  <li>Termux:api</li>
+  <li>Termux:boot</li>
+  <li>Termux:widget</li>
+  <li>Termux:styling</li>
+  <li>Termux:x11 (upcoming)</li>
+  <li>Termux:float</li>
+  <li>Termux:tasker</li>
+</ul>
+
+<p>we will disscus more later,for now just intro</p>
+<h5 id="termuxapi">Termux:api</h5>
+<p>Termux:api provide commandline access to the device api, termux can send messages,use  gps, wifi access etc.</p>
+
+<h5 id="termuxboot">Termux:boot</h5>
+<p>Termux boot provides functionality if execution of script while booting device,</p>
+
+<h5 id="termuxtasker">Termux:tasker</h5>
+<p>Termux task is plugin of tasker which help to execute program or script in termux from tasker app</p>
+
+<h4 id="termux-packages">Termux packages</h4>
+<p>As i mentioned above termux has more than 1000 packages in this repository</p>
+
+<p>let’s talk about some popular tools which can make your days.
+Termux support some popular  programming languages like</p>
+
+<ul>
+  <li>python</li>
+  <li>Ruby</li>
+  <li>perl</li>
+  <li>Nodejs</li>
+  <li>Golang</li>
+  <li>php</li>
+  <li>Lua</li>
+  <li>swift
+and have few compiler available which can help you to compile languages like c/c++ and java, it has clang and ecj which can compile c/c++ and java respectively</li>
+</ul>
+
+<p>It has popular webserver ,apache2 and nginx which help you to serve your website from termux.</p>
+
+<p>It has some serious hacking tools</p>
+<ul>
+  <li>metasploit</li>
+  <li>Hydra</li>
+  <li>nmap</li>
+  <li>settoolkit</li>
+  <li>aircrack</li>
+</ul>
+
+<p>You will get to know more tools which is available in termux, just stay tuned and open next tutorial.</p>
+
+:ET
