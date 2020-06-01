@@ -1,0 +1,88 @@
+I"�<h4 id="what-is-termuxx11-">What is Termux:x11 ?</h4>
+<p>As name suggest “X11” it is another addon of termux, which is quite useful when you want to use GUI application like any Desktop environment,this addon did’t released yet (20 may 2020) because of some minor issue, i hope it will release soon.</p>
+
+<h4 id="why-termuxx11-">Why Termux:x11 ?</h4>
+<p>Termux:x11 should exist because termux does’t support graphics,that’s why  in order to use GUI application from termux.</p>
+
+<p>it use wayland protocol and has many advantages over X
+for more info, have a look <a href="https://askubuntu.com/questions/11537/why-is-wayland-better">here</a></p>
+
+<h4 id="install-termuxx11">Install Termux:x11</h4>
+<p>Since it did’t release yet, even then you can install it,if you have installed you can skip this part</p>
+
+<h6 id="backup-your-data">Backup your data,</h6>
+<p>You have to uninstalled all addon and termux app to install it, because right now termux:x11 is not available in playstore or fdroid.
+you know that, any if termux application can’t be install if signature is different.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>termux-setup-storage
+cd /data/data/com.termux/files
+tar -cvzf /sdcard/termux-backup.tgz home usr
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>After executed above command ,just wait..</p>
+
+<p>when you done with it. just learn how you will restore your backup.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>termux-setup-storage
+cd /data/data/com.termux/files
+tar -xvzf /sdcard/termux-backup.tgz
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Above command will help you to restore your backup when you will install new termux.</p>
+
+<h5 id="uninstall-stuff">Uninstall stuff</h5>
+<p>Here i mean, just uninstall all your termux and its addon, make sure all addon means all addon,</p>
+<ul>
+  <li>Termux apps</li>
+  <li>Termux:styling</li>
+  <li>Termux:tasker</li>
+  <li>Termux:Float</li>
+  <li>Termux:widget</li>
+  <li>Termux:api</li>
+</ul>
+
+<h5 id="install-stuff">install stuff</h5>
+<p>Now it’s time to install things,I signed all apk with same signature, download it from my <a href="https://mega.nz/folder/7dggHIKJ#nXq5Gs9BJLdqn4kRmgTkpA">cloud server link </a>
+i signed all apk with apksigner default key, The reason behind it is simple, if any user want to update his app in future then can download from fdroid and sign with apksigner apps availabe in playstore.
+<a href="https://play.google.com/store/apps/details?id=com.haibison.apksigner">apksigner link</a>
+That’s why i didn’t sign with any terminal tool.</p>
+<h5 id="termuxapi-sms">Termux:api SMS</h5>
+<p>If you want to enable sms features in termux then you can download termux api with above link or <a href="https://mega.nz/folder/7dggHIKJ#nXq5Gs9BJLdqn4kRmgTkpA">cloud server link </a>
+This termux api is latest version and recompiled in order to get sms features</p>
+
+<h5 id="restore-your-backup-now">Restore your backup now</h5>
+<p>I have mentioned above,</p>
+<h4 id="setup-x11-now">Setup X11 now</h4>
+<p>just execute following command in your terminal</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>pkg install x11-repo
+pkg install termux-x11
+pkg install xwayland
+termux-x11
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>After that retun in terminal(termux)
+open new session and export DISPLAY</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>export DISPLAY=:0
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>Now if you have any gui application or any Destop environment installed, 
+start it. In my case I start xfce4, if you want to install it, <code class="highlighter-rouge">pkg install xfce4</code></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>startxfce4
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>Go to termux:x11 apps and enjoy your gui.</p>
+
+<p>If you face any type of issue , contact me: kcubeterm@gmail.com or open issue on <a href="https://github.com/termux/termux-x11/issues">github</a></p>
+
+:ET

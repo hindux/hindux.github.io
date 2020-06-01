@@ -1,4 +1,4 @@
-I"ä<p>As we know without backend language webserver is nothing, and php as backened language fulfill your all requirements with webserver, then letâ€™s go</p>
+I"ø<p>As we know without backend language webserver is nothing, and php as backened language fulfill your all requirements with webserver, then letâ€™s go</p>
 
 <h4 id="requirements">Requirements</h4>
 <p>Termux provide a separate package for php and Apache in which all requirements install automatically by that package.
@@ -28,6 +28,12 @@ after that paste following in httpd.conf in last line.</p>
 &lt;/IfModule&gt;
 </pre></td></tr></tbody></table></code></pre></div></div>
 
+<p>and uncomment mpm prefork module and comment mpm worker modules, these two module may found in line 66 and 67 in httpd.conf.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
+# LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
+</pre></td></tr></tbody></table></code></pre></div></div>
 <p>now the php has linked with apache server, go to document root, the default custom root of apache is <code class="highlighter-rouge">/data/data/com.termux/files/usr/share/apache2/default-site/htdocs</code></p>
 
 <p>if you get any type of error, then fresh install all those things, remove php ,apache . fresh installation resolve issues most of the time.</p>

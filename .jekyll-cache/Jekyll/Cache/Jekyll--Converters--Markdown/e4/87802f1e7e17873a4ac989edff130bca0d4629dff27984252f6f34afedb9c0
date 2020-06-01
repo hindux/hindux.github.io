@@ -1,0 +1,16 @@
+I"S
+<ul>
+  <li><a href="#what-is-termuxx11-">What is Termux:x11 ?</a></li>
+  <li><a href="#why-termuxx11-">Why Termux:x11 ?</a></li>
+  <li><a href="#install-termuxx11">Install Termux:x11</a>
+      - {:.} <a href="#backup-your-data">Backup your data,</a>
+    <ul>
+      <li><a href="#uninstall-stuff">Uninstall stuff</a></li>
+      <li><a href="#install-stuff">install stuff</a></li>
+      <li><a href="#termuxapi-sms">Termux:api SMS</a></li>
+      <li><a href="#restore-your-backup-now">Restore your backup now</a></li>
+    </ul>
+  </li>
+  <li><a href="#setup-x11-now">Setup X11 now</a></li>
+</ul>
+:EF
