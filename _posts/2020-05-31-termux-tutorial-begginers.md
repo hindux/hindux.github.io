@@ -2,14 +2,15 @@
 layout: post
 title: "Termux guide for begginers "
 author: hindux
-categories: [Termux, Termux-tutorial]
+categories: Termux-tutorial
 tags: [termux]
 image: assets/images/Termux_begginer.jpg
 description: "A full explained termux tutorial.This guide helps to any  begginers who want to master termux or any terminal. This guides explains whole concepts of termux like, termux addons, termux bash command, termux api commands and whole whatever termux has."
 featured: true
 hidden: false
 toc: true
-
+nxt: termux-installation
+prev: 
 ---
 This guide would be dive into the beautiful world of termux and explains all concepts abouts termux and its addon.
 

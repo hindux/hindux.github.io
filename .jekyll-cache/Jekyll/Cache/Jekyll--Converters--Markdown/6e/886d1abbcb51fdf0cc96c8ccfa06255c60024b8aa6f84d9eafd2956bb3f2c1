@@ -1,0 +1,34 @@
+I"�	<p>This guide is going to explains about termux installions as well as it’s addon(termux-api,termux boot etc)</p>
+
+<p>So i don’t think installing process of any android application to be tough, just you have to keep somethings in mind that don’t mix apk from anothers sources like you install termux apps from playstore and termux api from fdroid or any another sources,</p>
+
+<p>Termux application officially published on Google playstore,Fdroid and kalinethunter store</p>
+<h4 id="install-from-google-playstore">Install from Google playstore</h4>
+<ol>
+  <li>Login to your Google account, if you are not already logged in,</li>
+  <li>Open Google Play Store on your Android device by tapping <a href="https://play.google.com/store/apps/details?id=com.termux">this link</a></li>
+  <li>Tap Install,</li>
+  <li>Allow the installation to complete,</li>
+  <li>Once installed, you will see the Termux launcher on your home screen and in your App Drawer. Tap the icon to fire up the application.</li>
+</ol>
+
+<h4 id="install-from-fdroid">Install from Fdroid</h4>
+<ol>
+  <li>Open F-Droid on your Android or Chrome OS device by tapping <a href="https://f-droid.org/repository/browse/?fdid=com.termux">this link</a>,</li>
+  <li>Tap Download APK,</li>
+  <li>Tap the downloaded APK on your device,</li>
+  <li>Tap allow installation of apps from unknown sources (you will want to set this option anyway to be able to install apps built on your device in Termux),</li>
+  <li>Allow the installation to complete,
+Once installed, you will see the Termux launcher on your home screen and in your App Drawer. Tap the icon to fire up the application.</li>
+</ol>
+
+<h4 id="installion-of-termux-addon">Installion of termux addon</h4>
+<p>So if you install termux app from playstore then install addon playstore as well, if you install termux from fdroid then install addon from fdroid.</p>
+<h4 id="why-you-should-not-mix-sources-">why you should not mix sources ?</h4>
+<p>Here I mean that if you install termux application from playstore then make sure addons like termux api, termux boot etc should installed from playstore, if you try to install from fdroid you won’t be succeed.</p>
+
+<p>Since termux:boot and few more addons are not free on playstore, so people want to install that addon from another free version, so in this case you can’t get success.
+in short, termux and it’s addon are shared user application that’s why termux can access it’s addon data without root.
+here android policy is that , shared user application must have same signature.</p>
+
+:ET

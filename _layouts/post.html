@@ -113,15 +113,46 @@ post_class: post-template
             <!-- End Tags -->
 
             <!-- Prev/Next -->
-            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
-            {% if page.previous.url %}
+          <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+           {% if page.previous.url %}
             <a class="prev d-block col-md-6" href="{{ site.url }}{{page.previous.url}}"> &laquo; {{page.previous.title}}</a>
             {% endif %}
             {% if page.next.url %}
             <a class="next d-block col-md-6 text-lg-right" href="{{ site.url }}{{page.next.url}}">{{page.next.title}} &raquo; </a>
             {% endif %}
+         <!--   {% assign cat = page.category %}
+            
+            {% for post in site.categories[cat] %}
+              {% if post.url == page.url %}
+                {% assign post_index0 = forloop.index0 %}
+                {% assign post_index1 = forloop.index %}
+              {% endif %}
+            {% endfor %}
+            
+            {% for post in site.categories[cat] %}
+              {% if post_index0 == forloop.index %}
+                {% assign next_post = post %}
+              {% endif %}
+              {% if post_index1 == forloop.index0 %}
+                {% assign prev_post = post %}
+              {% endif %}
+            {% endfor %}
+            
+            {% if prev_post %}
+              <div class="article__previous">
+                <a href="{{ prev_post.url }}">{{ prev_post.title }}</a>
+              </div>
+            {% endif %}
+            
+            {% if next_post %}
+              <div class="article__next">
+                <a href="{{ next_post.url }}">{{ next_post.title }}</a>
+              </div>
+            {% endif %}
             <div class="clearfix"></div>
-            </div>
+            </div> -->
+
+            
             <!-- End Categories -->
 
         </div>
