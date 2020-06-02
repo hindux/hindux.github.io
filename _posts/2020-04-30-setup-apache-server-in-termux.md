@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: "How to setup apache server in termux."
 toc: true
-image: assets/images/apache.jpg
+image: https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/apache.jpg
 description: "Steps to setup apache webserver in termux environment for hosting as well other purposes"
 author: kcubeterm
 category: termux
@@ -64,7 +64,7 @@ using 127.0.0.1. Set the 'ServerName' directive globally to suppress this messag
 ```
 after setup servername run `apachectl ` and go to [http://localhost:8080](http://localhost:8080)
 if all things have done nice then your browser should show like following
-![ alt it's work ](/assets/images/itswork.jpg)
+![ alt it's work ](/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/itswork.jpg)
 
 all the setup have done now ,you would thinking ,how can i change above content into my own content,so dont worry, follow one more steps.
 

@@ -4,7 +4,7 @@ title: "How to integrate php and apache in linux and termux."
 author: kcubeterm
 categories: termux
 tags: [php,apache]
-image: assets/images/php-apache.jpg
+image: https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/php-apache.jpg
 description: "How to setup and integrate php with apache and control server with php as backened"
 featured: true
 hidden: true

@@ -1,4 +1,4 @@
-I"¾<p>This is world of Graphical User Interface, everyone like gui program
+I"Ž<p>This is world of Graphical User Interface, everyone like gui program
  so similar to linux ,termux have also lotâ€™s of gui program in the separate repo</p>
 
 <h4 id="subscribe-x11-repo">Subscribe x11-repo</h4>
@@ -37,12 +37,12 @@ here vncserver is command and <code class="highlighter-rouge">:1</code> means th
 
 <p>it may ask for password, you just give it any password,which you can remind easily, while putting password your password wonâ€™t prompt because of privacy.
 if your terminal gives output like following,then your vncserver is listening on your specified port.
-<img src="/assets/images/vnc1.jpg" alt="vncserver localhost:5901" /></p>
+<img src="/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/vnc1.jpg" alt="vncserver localhost:5901" /></p>
 
 <p>for knowledge purpose:
 sometime you may face issue like following.that time just kill that port, like in following case its is :1 then
 <code class="highlighter-rouge">vncserver -kill :1</code>
-<img src="/assets/images/Localvnc.jpg" alt=" vncserver " /></p>
+<img src="/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/Localvnc.jpg" alt=" vncserver " /></p>
 
 <h4 id="setup-desktop-environmentxfce4">setup Desktop environment(xfce4)</h4>
 <p>There are lots of desktop envirinment for linux like Gnome,xfce4,lxde etc,but termux has only xfce4 available right now.
@@ -61,10 +61,10 @@ startxfce4
 <p>step 1: Open vncviewer application. and then click on cross + floating button</p>
 
 <p>step 2: fill address and name
-<img src="/assets/images/vncstep2.jpg" alt="address and name" /></p>
+<img src="/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/vncstep2.jpg" alt="address and name" /></p>
 
 <p>step 3: toggle picture quality on high for best graphics andthen hit connect
-<img src="/assets/images/vncstep3.jpg" alt="tiggle high " /></p>
+<img src="/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/vncstep3.jpg" alt="tiggle high " /></p>
 
 <p>step 4: 
 if it ask for password, provide it, if you have forgot your vncserver password,then dontâ€™t worry.

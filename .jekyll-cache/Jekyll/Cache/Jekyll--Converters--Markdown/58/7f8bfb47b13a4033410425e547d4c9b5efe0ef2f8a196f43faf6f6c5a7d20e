@@ -1,4 +1,4 @@
-I"…<h4 id="what-is-apache-server-">What is apache server ?</h4>
+I"¹<h4 id="what-is-apache-server-">What is apache server ?</h4>
 <blockquote>
   <p>The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server software, released under the terms of Apache License 2.0. Apache is developed and maintained by an open community of developers under the auspices of the Apache Software Foundation</p>
 </blockquote>
@@ -55,7 +55,7 @@ using 127.0.0.1. Set the 'ServerName' directive globally to suppress this messag
 </pre></td></tr></tbody></table></code></pre></div></div>
 <p>after setup servername run <code class="highlighter-rouge">apachectl </code> and go to <a href="http://localhost:8080">http://localhost:8080</a>
 if all things have done nice then your browser should show like following
-<img src="/assets/images/itswork.jpg" alt=" alt it's work " /></p>
+<img src="/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/itswork.jpg" alt=" alt it's work " /></p>
 
 <p>all the setup have done now ,you would thinking ,how can i change above content into my own content,so dont worry, follow one more steps.</p>
 

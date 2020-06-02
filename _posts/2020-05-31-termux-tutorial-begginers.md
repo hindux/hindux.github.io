@@ -4,7 +4,7 @@ title: "Termux guide for begginers "
 author: hindux
 categories: Termux-tutorial
 tags: [termux]
-image: assets/images/Termux_begginer.jpg
+image: https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/Termux_begginer.jpg
 description: "A full explained termux tutorial.This guide helps to any  begginers who want to master termux or any terminal. This guides explains whole concepts of termux like, termux addons, termux bash command, termux api commands and whole whatever termux has."
 featured: true
 hidden: false

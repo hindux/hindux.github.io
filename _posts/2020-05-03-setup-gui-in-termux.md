@@ -3,7 +3,7 @@ layout: post
 title: "Setup Gui ,vncserver,x11 and desktop environment in termux"
 author: kcubeterm
 categories: termux
-image: assets/images/Gui.jpg
+image: https://cdn.jsdelivr.net/gh/hindux/Hindux.github.io/assets/images/Gui.jpg
 tags: [ vncserver , GUI ]
 description: "Here,how to setup vncserver,desktop environment and Gui in termux,make your terminal fullfilled with gui as well as cli"
 rating: 4.5
@@ -45,12 +45,12 @@ here vncserver is command and `:1` means the vnc server will run on localhost:59
 
 it may ask for password, you just give it any password,which you can remind easily, while putting password your password won't prompt because of privacy.
 if your terminal gives output like following,then your vncserver is listening on your specified port.
-![vncserver localhost:5901]( /assets/images/vnc1.jpg)
+![vncserver localhost:5901]( /https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/vnc1.jpg)
 
 for knowledge purpose:
 sometime you may face issue like following.that time just kill that port, like in following case its is :1 then
 `vncserver -kill :1`
-![ vncserver ](/assets/images/Localvnc.jpg)
+![ vncserver ](/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/Localvnc.jpg)
 
 #### setup Desktop environment(xfce4)
 There are lots of desktop envirinment for linux like Gnome,xfce4,lxde etc,but termux has only xfce4 available right now.
@@ -69,10 +69,10 @@ step 1: Open vncviewer application. and then click on cross + floating button
 
 
 step 2: fill address and name
-![address and name](/assets/images/vncstep2.jpg)
+![address and name](/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/vncstep2.jpg)
 
 step 3: toggle picture quality on high for best graphics andthen hit connect
-![tiggle high ](/assets/images/vncstep3.jpg)
+![tiggle high ](/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/vncstep3.jpg)
 
 step 4: 
 if it ask for password, provide it, if you have forgot your vncserver password,then dont't worry.

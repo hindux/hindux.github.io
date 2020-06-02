@@ -1,4 +1,4 @@
-I"b^
+I"-`
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
@@ -25,7 +25,7 @@
                     <div class="wrapthumbnail">
                         <a href="/termux-tutorial-begginers/">
                             
-                            <img class="featured-box-img-cover" src="/assets/images/Termux_begginer.jpg" />
+                            <img class="featured-box-img-cover" src="https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/Termux_begginer.jpg" />
                             
                         </a>
                     </div>
@@ -84,7 +84,7 @@
                     <div class="wrapthumbnail">
                         <a href="/setup-termux-X11-app/">
                             
-                            <img class="featured-box-img-cover" src="/assets/images/x11.jpg" />
+                            <img class="featured-box-img-cover" src="https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/x11.jpg" />
                             
                         </a>
                     </div>
@@ -162,7 +162,7 @@
                     <div class="wrapthumbnail">
                         <a href="/setup-php-with-apache-in-termux/">
                             
-                            <img class="featured-box-img-cover" src="/assets/images/php-apache.jpg" />
+                            <img class="featured-box-img-cover" src="https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/php-apache.jpg" />
                             
                         </a>
                     </div>
@@ -237,7 +237,7 @@
                     <div class="wrapthumbnail">
                         <a href="/play-audio-in-termux-chroot/">
                             
-                            <img class="featured-box-img-cover" src="/assets/images/audio.png" />
+                            <img class="featured-box-img-cover" src="https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/audio.png" />
                             
                         </a>
                     </div>
@@ -322,7 +322,7 @@
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/Termux_begginer.jpg" alt="Termux guide for begginers " /> 
+                        <img class="img-fluid" src="https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/Termux_begginer.jpg" alt="Termux guide for begginers " /> 
                     
 
                 
@@ -369,7 +369,7 @@
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/x11.jpg" alt="Setup termux x11 with some simple steps" /> 
+                        <img class="img-fluid" src="https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/x11.jpg" alt="Setup termux x11 with some simple steps" /> 
                     
 
                 
@@ -427,7 +427,7 @@
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/style.jpg" alt="Setup termux-styling and change your termux looks" /> 
+                        <img class="img-fluid" src="https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/style.jpg" alt="Setup termux-styling and change your termux looks" /> 
                     
 
                 
@@ -478,7 +478,7 @@
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/Gui.jpg" alt="Setup Gui ,vncserver,x11 and desktop environment in termux" /> 
+                        <img class="img-fluid" src="https://cdn.jsdelivr.net/gh/hindux/Hindux.github.io/assets/images/Gui.jpg" alt="Setup Gui ,vncserver,x11 and desktop environment in termux" /> 
                     
 
                 
@@ -538,7 +538,7 @@
                 
 
                     
-                        <img class="img-fluid" src="/assets/images/apache.jpg" alt="How to setup apache server in termux." /> 
+                        <img class="img-fluid" src="https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/apache.jpg" alt="How to setup apache server in termux." /> 
                     
 
                 

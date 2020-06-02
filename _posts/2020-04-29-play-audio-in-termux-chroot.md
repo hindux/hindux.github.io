@@ -4,7 +4,7 @@ title:  "How to play audio in termux chroot or proot OS like Arch Debian Ubuntu 
 author: kcubeterm
 categories: termux-chroot
 tags: [chroot, audio ]
-image: assets/images/audio.png
+image: https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/audio.png
 description: "Here i am going to explain abiut ,how can i play audio in proot environment with pulseaudio server"
 featured: true
 hidden: true

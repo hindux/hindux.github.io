@@ -4,7 +4,7 @@ title:  "Setup termux x11 with some simple steps"
 author: kcubeterm
 categories: termux
 tags: [x11,GUI ]
-image: assets/images/x11.jpg
+image: https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/x11.jpg
 description: "setup xwayland and termux:x11 apps in some simple steps, and install termux x11 before release , termux x11 is addon of termux."
 featured: true
 rating: 4.5

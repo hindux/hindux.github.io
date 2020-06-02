@@ -1,4 +1,4 @@
-I"³<p>There are two methods of styling termux,</p>
+I"ƒ<p>There are two methods of styling termux,</p>
 <ul>
   <li>Install termux-styling apps</li>
   <li>By simple hacks.</li>
@@ -44,14 +44,14 @@ click on more, and then click on style and then it will show you choose font and
 <p>For changing color you have to write <code class="highlighter-rouge">colors.properties</code> and for font you have to write <code class="highlighter-rouge">font.ttf</code></p>
 
 <p>Termux has already some themes and fonts in sources , so we just download from there.
-theme <a href="https://github.com/termux/termux-styling/tree/master/app/src/main/assets/colors">link</a>
-fonts <a href="https://github.com/termux/termux-styling/tree/master/app/src/main/assets/fonts">link</a></p>
+theme <a href="https://github.com/termux/termux-styling/tree/master/app/src/main/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/colors">link</a>
+fonts <a href="https://github.com/termux/termux-styling/tree/master/app/src/main/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/fonts">link</a></p>
 
 <p>change current theme into another</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
-</pre></td><td class="rouge-code"><pre>curl -o colors.properties https://raw.githubusercontent.com/termux/termux-styling/master/app/src/main/assets/colors/base16-apathy-light.properties
+</pre></td><td class="rouge-code"><pre>curl -o colors.properties https://raw.githubusercontent.com/termux/termux-styling/master/app/src/main/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/colors/base16-apathy-light.properties
 termux-reload-settings
 
 </pre></td></tr></tbody></table></code></pre></div></div>
@@ -61,7 +61,7 @@ termux-reload-settings
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
-</pre></td><td class="rouge-code"><pre>curl -o font.ttf https://raw.githubusercontent.com/termux/termux-styling/master/app/src/main/assets/fonts/Go.ttf
+</pre></td><td class="rouge-code"><pre>curl -o font.ttf https://raw.githubusercontent.com/termux/termux-styling/master/app/src/main/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/fonts/Go.ttf
 
 termux-reload-settings
 </pre></td></tr></tbody></table></code></pre></div></div>

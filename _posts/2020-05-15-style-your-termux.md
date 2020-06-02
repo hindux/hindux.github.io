@@ -6,7 +6,7 @@ description: "setup termux-styling ,give unique looks of your terminal , setup t
 author: kcubeterm
 category: termux
 tags: [termux,style,]
-image: assets/images/style.jpg
+image: https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/style.jpg
 ---
 There are two methods of styling termux,
 * Install termux-styling apps
@@ -56,12 +56,12 @@ cd ~/.termux
 For changing color you have to write `colors.properties` and for font you have to write `font.ttf`
 
 Termux has already some themes and fonts in sources , so we just download from there.
-theme [link](https://github.com/termux/termux-styling/tree/master/app/src/main/assets/colors)
-fonts [link](https://github.com/termux/termux-styling/tree/master/app/src/main/assets/fonts)
+theme [link](https://github.com/termux/termux-styling/tree/master/app/src/main/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/colors)
+fonts [link](https://github.com/termux/termux-styling/tree/master/app/src/main/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/fonts)
 
 change current theme into another
 ```
-curl -o colors.properties https://raw.githubusercontent.com/termux/termux-styling/master/app/src/main/assets/colors/base16-apathy-light.properties
+curl -o colors.properties https://raw.githubusercontent.com/termux/termux-styling/master/app/src/main/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/colors/base16-apathy-light.properties
 termux-reload-settings
 
 ```
@@ -69,7 +69,7 @@ here you can download any themes from above link
 
 Now change font
 ```
-curl -o font.ttf https://raw.githubusercontent.com/termux/termux-styling/master/app/src/main/assets/fonts/Go.ttf
+curl -o font.ttf https://raw.githubusercontent.com/termux/termux-styling/master/app/src/main/https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/fonts/Go.ttf
 
 termux-reload-settings
 ```
