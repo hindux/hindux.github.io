@@ -2,7 +2,6 @@
 layout: post
 title: "Installion of Termux and it's addon"
 description: "This guide explains about how to install termux apps and its addon lime termux api without any errors and tell that what are sources of errors while installing termux apps"
-author: kcubeterm
 categories: Termux-tutorial
 featured: false
 hidden: true
@@ -65,6 +64,11 @@ If you want free version of all termux apk then install all addon and termux app
 in short, termux and it's addon are shared user application that's why termux can access it's addon data without root.
 here android policy come into play , shared user application must have same signature,and termux use different signature for different app store.
 
+
+#### what's next ?
+we will discuss about  navigation in our next tutorial. Stay tuned.
+
+**If you have any issues or question, please join our termux community on [telegram](https://t.me/joinchat/LksyyhqH8BLILApMBRLdpA)**
 
 
 
