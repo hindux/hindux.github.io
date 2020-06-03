@@ -16,9 +16,7 @@ post_class: post-template
  
         {% assign author = site.authors[page.author] %}
         
-        {% if site.adsense == "enabled" %}
-           {% include adsense-under-header.html %}
-        {% endif %}
+       
 
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
@@ -52,6 +50,10 @@ post_class: post-template
             <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.cdn }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
             {% endif %}
 
+            {% endif %}
+            
+            {% if site.adsense == "enabled" %}
+                 {% include adsense-under-header.html %}
             {% endif %}
             <!-- End Featured Image -->
 
