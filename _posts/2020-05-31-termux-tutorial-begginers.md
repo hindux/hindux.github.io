@@ -16,7 +16,7 @@ This guide would be dive into the beautiful world of termux and explains all con
 
 
 #### What is termux ? 
-Before going into deep ,we should know that what exactly termux is, Termux is a very powerful linux terminal emulator which runs in android,
+Before going into deep, we should first and foremost know what exactly termux is, Termux is a very powerful linux terminal emulator which runs in android,
 > Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically - additional packages are available using the APT package manager.
 
 Yes, termux is not just a simple terminal , it has own packages, it has above 1000+ packages, that's why popularity are increasing day by day.
