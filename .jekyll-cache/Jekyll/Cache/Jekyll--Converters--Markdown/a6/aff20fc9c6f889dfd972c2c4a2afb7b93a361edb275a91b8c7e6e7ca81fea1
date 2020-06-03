@@ -1,4 +1,4 @@
-I"Ô<p>This guide would be dive into the beautiful world of termux and explains all concepts abouts termux and its addon.</p>
+I"È<p>This guide would be dive into the beautiful world of termux and explains all concepts abouts termux and its addon.</p>
 
 <h4 id="what-is-termux-">What is termux ?</h4>
 <p>Before going into deep ,we should know that what exactly termux is, Termux is a very powerful linux terminal emulator which runs in android,</p>
@@ -12,9 +12,7 @@
 <p>Offcourse it is different from linux in many aspects. As we know linux is OS but termux is just an android application which has to follow android restriction, in order to provide similar linux environment in android. It has all directory in $PREFIX , 
 You may know if you have ever run linux  ,linux has /bin,/usr/ ,/share /etc all has in its root directory,but in unrooted device itâ€™s impossible to write and execute program in android root directory , so termux has itâ€™s own environment.</p>
 
-<p>Here $PREFIX stands,8</p>
-
-<p>o for /data/data/com.termux/files/usr/</p>
+<p>Here $PREFIX stands,for /data/data/com.termux/files/usr/</p>
 
 <p>and all directory in $PREFIX,because any android app can read, write , execute in his /data/ partition</p>
 

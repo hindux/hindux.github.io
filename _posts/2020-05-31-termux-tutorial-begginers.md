@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Termux guide for begginers "
-author: hindux
 categories: Termux-tutorial
 tags: [termux]
 image: https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/Termux_begginer.jpg
@@ -11,7 +10,7 @@ hidden: false
 toc: true
 nxt: termux-installation
 prev: 
-comments:false
+comments: false
 ---
 This guide would be dive into the beautiful world of termux and explains all concepts abouts termux and its addon.
 
@@ -26,9 +25,7 @@ Yes, termux is not just a simple terminal , it has own packages, it has above 10
 Offcourse it is different from linux in many aspects. As we know linux is OS but termux is just an android application which has to follow android restriction, in order to provide similar linux environment in android. It has all directory in $PREFIX , 
 You may know if you have ever run linux  ,linux has /bin,/usr/ ,/share /etc all has in its root directory,but in unrooted device it's impossible to write and execute program in android root directory , so termux has it's own environment.
 
-Here $PREFIX stands,8
-
-o for /data/data/com.termux/files/usr/
+Here $PREFIX stands,for /data/data/com.termux/files/usr/
 
 and all directory in $PREFIX,because any android app can read, write , execute in his /data/ partition
 

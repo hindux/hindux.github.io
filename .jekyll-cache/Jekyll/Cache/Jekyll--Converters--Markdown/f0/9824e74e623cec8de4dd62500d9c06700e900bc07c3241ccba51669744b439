@@ -1,0 +1,14 @@
+I"Ö
+<ul>
+  <li><a href="#what-is-termux-">What is termux ?</a></li>
+  <li><a href="#what-is-different-from-standard-linux-">What is different from standard linux ?</a></li>
+  <li><a href="#termux-addon">Termux: addon</a>
+    <ul>
+      <li><a href="#termuxapi">Termux:api</a></li>
+      <li><a href="#termuxboot">Termux:boot</a></li>
+      <li><a href="#termuxtasker">Termux:tasker</a></li>
+    </ul>
+  </li>
+  <li><a href="#termux-packages">Termux packages</a></li>
+</ul>
+:EF
