@@ -8,6 +8,7 @@ hidden: true
 toc: true
 nxt:
 prev: termux-tutorial-begginers
+comments: false
 ---
 This guide is going to explains about termux installions as well as it's addon(termux-api,termux boot etc)
 

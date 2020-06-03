@@ -8,7 +8,7 @@ tags: [ vncserver , GUI ]
 description: "Here,how to setup vncserver,desktop environment and Gui in termux,make your terminal fullfilled with gui as well as cli"
 rating: 4.5
 toc: true
-
+comments: false
 --- 
  This is world of Graphical User Interface, everyone like gui program
  so similar to linux ,termux have also lot's of gui program in the separate repo
