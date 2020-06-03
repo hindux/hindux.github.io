@@ -15,6 +15,10 @@ post_class: post-template
 
  
         {% assign author = site.authors[page.author] %}
+        
+        {% if site.adsense == "enabled" %}
+           {% include adsense-under-header.html %}
+        {% endif %}
 
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
@@ -120,40 +124,6 @@ post_class: post-template
             {% if page.next.url %}
             <a class="next d-block col-md-6 text-lg-right" href="{{ site.url }}{{page.next.url}}">{{page.next.title}} &raquo; </a>
             {% endif %}
-         <!--   {% assign cat = page.category %}
-            
-            {% for post in site.categories[cat] %}
-              {% if post.url == page.url %}
-                {% assign post_index0 = forloop.index0 %}
-                {% assign post_index1 = forloop.index %}
-              {% endif %}
-            {% endfor %}
-            
-            {% for post in site.categories[cat] %}
-              {% if post_index0 == forloop.index %}
-                {% assign next_post = post %}
-              {% endif %}
-              {% if post_index1 == forloop.index0 %}
-                {% assign prev_post = post %}
-              {% endif %}
-            {% endfor %}
-            
-            {% if prev_post %}
-              <div class="article__previous">
-                <a href="{{ prev_post.url }}">{{ prev_post.title }}</a>
-              </div>
-            {% endif %}
-            
-            {% if next_post %}
-              <div class="article__next">
-                <a href="{{ next_post.url }}">{{ next_post.title }}</a>
-              </div>
-            {% endif %}
-            <div class="clearfix"></div>
-            </div> -->
-
-            
-            <!-- End Categories -->
 
         </div>
       
