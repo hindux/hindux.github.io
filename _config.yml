@@ -61,7 +61,7 @@ paginate_path: /page:num/
     
 # Other
 markdown: kramdown
-cdn: https://cdn.jsdelivr.net/gh/hindux/hindux.github.io
+cdn: https://cdn.jsdelivr.net/gh/termux4u/termux4u.github.io
 
 kramdown:
   input: GFM
