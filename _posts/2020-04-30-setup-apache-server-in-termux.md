@@ -8,7 +8,6 @@ description: "Steps to setup apache webserver in termux environment for hosting 
 author: kcubeterm
 category: termux
 tags: [apache,server]
-rating: 4.5
 ---
 
 #### What is apache server ?

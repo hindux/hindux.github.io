@@ -7,8 +7,6 @@ tags: [php,apache]
 image: https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/php-apache.jpg
 description: "How to setup and integrate php with apache and control server with php as backened"
 featured: true
-hidden: true
-rating: 4.5
 ---
 As we know without backend language webserver is nothing, and php as backened language fulfill your all requirements with webserver, then let's go
 

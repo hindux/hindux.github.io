@@ -6,7 +6,6 @@ categories: termux
 image: https://cdn.jsdelivr.net/gh/hindux/Hindux.github.io/assets/images/Gui.jpg
 tags: [ vncserver , GUI ]
 description: "Here,how to setup vncserver,desktop environment and Gui in termux,make your terminal fullfilled with gui as well as cli"
-rating: 4.5
 toc: true
 comments: false
 --- 

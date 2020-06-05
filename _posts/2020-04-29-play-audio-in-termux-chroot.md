@@ -7,8 +7,6 @@ tags: [chroot, audio ]
 image: https://cdn.jsdelivr.net/gh/hindux/hindux.github.io/assets/images/audio.png
 description: "Here i am going to explain abiut ,how can i play audio in proot environment with pulseaudio server"
 featured: true
-hidden: true
-rating: 4.5
 comments: false
 ---
 
