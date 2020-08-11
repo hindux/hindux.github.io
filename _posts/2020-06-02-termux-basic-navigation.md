@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Basic navigation in termux commandline"
-description: 
+description: learn basic navigation in termux,know about command like ls, pwd,cd,rm etc.
 comments: false
 nxt:
 prev:
@@ -89,7 +89,7 @@ drwx------  2 u0_a290 u0_a290  4096 Jun  3 11:40 storage
 -rw-------  1 u0_a290 u0_a290     0 Jun  3 11:39 visible
 ```
 
-**We know more about file permissiins further**
+**We'll know more about file permissiins further**
 
 #### playing with directories.
 Directories in termux, when we start termux the default directiries is home directory.
@@ -134,7 +134,7 @@ $ pwd
 /data/data/com.termux/files
 ```
 #### What's next 
-The next tutorial will be mire on navigation.
+The next tutorial will be more on navigation.
 
 
 
