@@ -10,7 +10,7 @@ hidden: true
 
 #### What we learn now ?
 
-In this tutorial we will interact with text editor, and creating and removing files and directories.
+In this tutorial we will interact with text editor, creates ,removes, copy , move and renaming  files and directories.
 
 
 
@@ -41,7 +41,7 @@ Install it by pkg
 `pkg install micro -y`
 
 
-After installion let's write something in *file1* which we have created earlier.
+After installation let's write something in *file1* which we have created earlier.
 
 Now open that file with micro like
 
@@ -62,8 +62,68 @@ $ mkdir termux
 $ ls
 file1 termux
 ```
+#### Copy files and directories.
 
-You can see in line 3 , there is a directory named termux.
+We will use `cp` commamd to copy files and directories.
+
+##### copy files
+
+let's create an empty directory first.
+
+`mkdir empty-dir`
+
+```
+$ mkdir empty-dir
+$ ls
+file1 empty-dir termux
+```
+
+you can see in line 3,
+
+now lets copy **file1** into **empty-dir** 
+
+`cp file1 ./empty-dir`
+
+NOTE: ./ represents current directory, and you know **empty-dir** exist in current dir.
+
+Now after executing above command let's list empty-dir to see that file1 copied or not.
+
+For list **empty-dir**, execute `ls empty-dir`
+
+```
+$ ls empty-dir
+file1
+```
+
+You can use cp to creating dublicate of file.
+
+Here, creating dublicate of **file1**
+
+`cp file1 file2`
+
+The file2 will contains same things whatever file1 contains because file2 is dublicate of file1.Open both file for confirmation.
+
+#### Copy directory
+
+`cp` is use for copying directory also.
+
+Here `-r` option come into play.
+-r stands for recursive.
+
+**synopsis** : cp -r Dir DESTINATION_DIR_PATH
+
+e.g. Copy empty-dir into termux
+
+`cp -r empty-dir ./termux`
+
+Above command will copy empty-dir into termux directory, both are exist in current directory.
+
+In order to confirmation , list termux dir `ls termux`
+
+#### Moving file.
+
+Moving files means 
+
 
 #### Removing files and directories.
 
@@ -107,6 +167,7 @@ Here we use `rm` with `-r` option.
 -r stands for recursive.
 
 So when directory is not empty we will use `rm -r DIR_NAME`
+
 
 
 
