@@ -4,7 +4,7 @@ description:
 toc: true
 ---
 
-In this we will learn "How to install packages in termux", not only instalation, will cover listing, removing and searches also.
+In this we will learn "How to install packages in termux", not only installation, will cover listing, removing and searches also.
 
 
 #### List help for pkg
@@ -22,7 +22,7 @@ In order to install packages in termux , we will use `pkg`
 
 we will prefer only pkg for installing packages.
 
-lest's install nano text editor again.
+let's install nano text editor again.
 `pkg install nano`
 
 Above command will ask for confirmation, just hit enter to proceed.
@@ -75,7 +75,7 @@ let's list info of micro text editor.
 
 `pkg show micro`
 
-There are few mote subcommand which is quite useful. you can list via `pkg help`
+There are few more subcommand which is quite useful. you can list via `pkg help`
 
 
 #### What is next ?
