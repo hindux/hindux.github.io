@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installion of Termux and it's addon"
+title: "Installation of Termux and it's addon"
 description: "This guide explains about how to install termux apps and its addon lime termux api without any errors and tell that what are sources of errors while installing termux apps"
 categories: Termux-tutorial
 featured: false
@@ -10,17 +10,17 @@ nxt:
 prev: termux-tutorial-begginers
 comments: false
 ---
-This guide is going to explains about termux installions as well as it's addon(termux-api,termux boot etc)
+This guide is going to explains about termux installation as well as it's addon(termux-api,termux boot etc)
 
 So i don't think installing process of any android application to be tough, just you have to keep somethings in mind that don't mix apk from anothers sources like you install termux apps from playstore and termux api from fdroid or any another sources,
 
 Termux application officially published on Google playstore,Fdroid and kalinethunter store
-#### Install from Google playstore
-1. Login to your Google account, if you are not already logged in,
-2. Open Google Play Store on your Android device by tapping [this link](https://play.google.com/store/apps/details?id=com.termux)
-3. Tap Install,
-4. Allow the installation to complete,
-5. Once installed, you will see the Termux launcher on your home screen and in your App Drawer. Tap the icon to fire up the application.
+> #### Install from Google playstore
+> 1. Login to your Google account, if you are not already logged in,
+> 2. Open Google Play Store on your Android device by tapping [this link](https://play.google.com/store/apps/details?id=com.termux)
+> 3. Tap Install,
+> 4. Allow the installation to complete,
+> 5. Once installed, you will see the Termux launcher on your home screen and in your App Drawer. Tap the icon to fire up the application.
 
 
 #### Install from Fdroid
@@ -55,7 +55,7 @@ There are list of addon,
 
 #### why you should not mix sources ?
 > Since Termux environment is shared between all its add-ons, each APK must be signed with same key.
->Unfortunately, we cannot use same signature key for various installation sources.
+> Unfortunately, we cannot use same signature key for various installation sources.
 
 Here I mean that if you install termux application from playstore then make sure addons like termux api, termux boot etc should installed from playstore, if you try to install from fdroid you won't be succeed. 
 
@@ -69,7 +69,7 @@ here android policy come into play , shared user application must have same sign
 #### what's next ?
 we will discuss about  navigation in our next tutorial. Stay tuned.
 
-**If you have any issues or question, please join our termux community on [telegram](https://t.me/joinchat/LksyyhqH8BLILApMBRLdpA)**
+**If you have any issues or question, please join our termux community on [telegram](https://telegram.me/hinduxsite)**
 
 
 
