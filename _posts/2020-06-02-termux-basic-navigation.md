@@ -3,6 +3,8 @@ layout: post
 title: "Basic navigation in termux commandline"
 description: learn basic navigation in termux,know about command like ls, pwd,cd,rm etc.
 comments: false
+hidden: true
+categories: Termux-tutorial
 nxt:
 prev:
 toc: true

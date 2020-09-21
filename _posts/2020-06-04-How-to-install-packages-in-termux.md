@@ -1,7 +1,10 @@
 ---
 layout: post
-description:
+description: "How to install packages in termux, getting info about packages, find packages of his/her choice"
 toc: true
+comments: false
+hidden: true
+categories: Termux-tutorial
 ---
 
 In this we will learn "How to install packages in termux", not only installation, will cover listing, removing and searches also.

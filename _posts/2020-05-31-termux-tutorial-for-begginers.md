@@ -12,7 +12,7 @@ nxt: termux-installation
 prev: 
 comments: false
 ---
-This guide would be dive into the beautiful world of termux and explains all concepts abouts termux and its addon.
+A full proof termux tutorial for  dive into the beautiful world of termux and explains all concepts abouts termux and its addon.
 
 
 #### What is termux ? 

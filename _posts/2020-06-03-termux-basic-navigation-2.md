@@ -3,6 +3,9 @@ layout: post
 title: "Basic navigation part-II"
 description: "Here we discuss about absolute path and relative path in termux,cover $PREFIX and few more things which makes termux different from standard linux."
 toc: true
+comments: false
+categories: Termux-tutorial
+hidden: true
 ---
 
 #### What we learn now ?
