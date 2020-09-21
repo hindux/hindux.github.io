@@ -1,0 +1,13 @@
+I"¯
+<ul>
+  <li><a href="#list-help-for-pkg">List help for pkg</a></li>
+  <li><a href="#how-to-install-packages">How to install packages.</a></li>
+  <li><a href="#how-to-remove-packages">How to remove packages</a>
+    <ul>
+      <li><a href="#searching-packages">Searching packages.</a></li>
+      <li><a href="#get-package-info">Get package info</a></li>
+    </ul>
+  </li>
+  <li><a href="#what-is-next-">What is next ?</a></li>
+</ul>
+:EF

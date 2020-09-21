@@ -1,0 +1,13 @@
+I"	<p>In this we will learn “How to install packages in termux”, not only instalation, will cover listing, removing and searches also.</p>
+
+<h4 id="how-to-install-packages">How to install packages.</h4>
+
+<p>As you know termux has own packages and package manager also.</p>
+
+<p>In order to install packages in termux , we will use <code class="highlighter-rouge">pkg</code></p>
+
+<p><strong>Warning: Don’t use apt for installing packages in termux.</strong></p>
+
+<p>we will prefer only pkg for installing packages.</p>
+
+:ET

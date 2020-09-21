@@ -1,0 +1,17 @@
+I"ÿ
+<ul>
+  <li><a href="#print-working-directorypwd">print working directory(PWD)</a></li>
+  <li><a href="#listls">list(ls)</a>
+    <ul>
+      <li><a href="#listing-hidden-files">Listing hidden files</a></li>
+    </ul>
+  </li>
+  <li><a href="#list-file-permissions">List file permissions</a>
+    <ul>
+      <li><a href="#clear-terminal">Clear terminal.</a></li>
+    </ul>
+  </li>
+  <li><a href="#playing-with-directories">playing with directories.</a></li>
+  <li><a href="#whats-next">Whatâ€™s next</a></li>
+</ul>
+:ET

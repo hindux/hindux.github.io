@@ -1,0 +1,167 @@
+I"�<p>In this tutorial we’ll learn the basics of navigation or moving around termux directory.</p>
+
+<h4 id="print-working-directorypwd">print working directory(PWD)</h4>
+<p>when you open termux commandline,do you know where you are ?. In which directory you are ?
+So in order to knowing the current directory. The command <code class="highlighter-rouge">pwd</code> come into play</p>
+
+<p>execute <code class="highlighter-rouge">pwd</code> in termux</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>$pwd
+/data/data/com.termux/files/home
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>command <code class="highlighter-rouge">pwd</code> gave output <code class="highlighter-rouge">/data/data/com.termux/files/home</code></p>
+
+<p><code class="highlighter-rouge">pwd</code> always help you when you forget where are you ?</p>
+
+<h4 id="listls">list(ls)</h4>
+<p>The next command is <code class="highlighter-rouge">ls</code> ls stand for list, as name suggest “listing”. So command <code class="highlighter-rouge">ls</code> is used for listing files and directory in your current path or specified path.</p>
+
+<p>execute <code class="highlighter-rouge">ls</code> in your commandline.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>$ ls
+storage
+kk
+termux.txt
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>if it does’t show anything, it means, your current directory contain nothing or files are hidden.</p>
+
+<p>In linux/termux the files or directory  which has dot in prefix like <code class="highlighter-rouge">.termux</code>  won’t listing with <code class="highlighter-rouge">ls</code>. Here you have to use <code class="highlighter-rouge">-a</code> option.</p>
+
+<h5 id="listing-hidden-files">Listing hidden files</h5>
+<p>As you know the files which contain dot in starting that’s cannot be visible by just <code class="highlighter-rouge">ls </code> command, here we shiuld use <code class="highlighter-rouge">ls -a</code></p>
+
+<p>for example, create two file with or without dot .
+use <code class="highlighter-rouge">touch</code> command to create files</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>$ touch .hidden
+$ touch visible
+ls
+visible storage
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>In above example we created two file , first one is “.hidden” and second one is “visible”
+and when we execute <code class="highlighter-rouge">ls</code> visible shows but .hidden dont.</p>
+
+<p>Now use <code class="highlighter-rouge">ls -a</code> to listing  all files and dirrctory</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>$ ls -a
+. .. .hidden storage visible
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>you can see above <code class="highlighter-rouge">ls -a </code> listed all files and directory.</p>
+
+<h4 id="list-file-permissions">List file permissions</h4>
+
+<p>Files and directories permissions can be list by <code class="highlighter-rouge">ls -l</code> and <code class="highlighter-rouge">ls -a</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>$ ls -l
+total 4
+drwx------ 2 u0_a290 u0_a290 4096 Jun  3 11:40 storage
+-rw------- 1 u0_a290 u0_a290    0 Jun  3 11:39 visible
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>For viewing hidden file permissions as well use <code class="highlighter-rouge">-a</code> flag with <code class="highlighter-rouge">-l</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre>total 24
+drwx------  3 u0_a290 u0_a290  4096 Jun  3 11:40 .
+drwx------ 99 u0_a290 u0_a290 16384 Jun  3 11:39 ..
+-rw-------  1 u0_a290 u0_a290     0 Jun  3 11:39 .hidden
+drwx------  2 u0_a290 u0_a290  4096 Jun  3 11:40 storage
+-rw-------  1 u0_a290 u0_a290     0 Jun  3 11:39 visible
+
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>We’ll know more about file permissiins further</strong></p>
+
+<h5 id="clear-terminal">Clear terminal.</h5>
+<p>you have already filled your terminal .let’s clear it by command <code class="highlighter-rouge">clear</code>.</p>
+
+<p>just execute command clear in your terminal and magic will happen.</p>
+
+<h4 id="playing-with-directories">playing with directories.</h4>
+<p>Directories in termux, when we open termux the default directory is  home directory.
+But suppose you want to go in your internal storage or any other directory.</p>
+
+<p>Here command <code class="highlighter-rouge">cd </code> help us, cd stands for change directory.
+change your directory into /sdcard</p>
+
+<p>like execute <code class="highlighter-rouge">cd /sdcard</code> and then execute <code class="highlighter-rouge">pwd</code></p>
+
+<p>Here before changing your directory into /sdcard. you have to give storage access permission to termux.</p>
+
+<p>execute <code class="highlighter-rouge">termux-setup-storage</code> and after prompting window permit it.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>$ cd /sdcard/
+$ pwd
+/sdcard
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>Now we should learn about some tips so that navigating between directories will be more convenience.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">~</code> (tilde) represent home directory, no matter where you are, whenever you execute <code class="highlighter-rouge">cd ~</code>
+  you will return in home directory</li>
+  <li>
+    <p>. (dot) - This is a reference to your current directory.</p>
+  </li>
+  <li><code class="highlighter-rouge">..</code> double dot represent parent directory or one directory up.</li>
+</ul>
+
+<p>Now suppose you are in /sdcard directory. if you want to return home directory. execute <code class="highlighter-rouge">cd ~</code></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>$ pwd
+/sdcard
+$ cd ~
+$ pwd
+/data/data/com.termux/files/home
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Now suppose you are in <code class="highlighter-rouge">/data/data/com.termux/files/home</code> directory and want to go one directory up
+in ` /data/data/com.termux/files<code class="highlighter-rouge"> so simply execute </code>cd ../<code class="highlighter-rouge"> or </code>cd ..`</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>$ pwd
+/data/data/com.termux/files/home
+$ cd ..
+$ pwd 
+/data/data/com.termux/files
+</pre></td></tr></tbody></table></code></pre></div></div>
+<h4 id="whats-next">What’s next</h4>
+<p>The next tutorial will be on removing and creating files and directory.</p>
+
+:ET

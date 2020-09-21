@@ -1,6 +1,6 @@
 # Site
-name: "hindux"
-title: "hindux"
+name: "Hindux"
+title: "Hindux"
 description: "Learn linux with termux"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
@@ -34,10 +34,10 @@ authors:
 authors:
   kcubeterm:
     name: Kcubeterm
-    display_name: Krishna
+    display_name: Krishna Kanhaiya
     #gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: kcubeterm@gmail.com
-    avatar: 'assets/images/krishna.jpeg'
+    avatar: 'assets/images/logo.png'
     twitter: https://twitter.com/kcubeterm
 # Plugins
 plugins:
