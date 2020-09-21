@@ -5,7 +5,7 @@ description: "This guide explains about how to install termux apps and its addon
 categories: Termux-tutorial
 featured: false
 hidden: true
-toc: true
+toc: false
 nxt:
 prev: termux-tutorial-begginers
 comments: false
@@ -14,7 +14,7 @@ comments: false
 
 Just visit official wiki for this 
 
-https://wiki.termux.com/wiki/Installation
+[https://wiki.termux.com/wiki/Installation](https://wiki.termux.com/wiki/Installation)
 
 if above links dont work, use vpn for it
 
