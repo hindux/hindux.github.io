@@ -1,0 +1,134 @@
+I"�<h4 id="what-we-learn-now-">What we learn now ?</h4>
+
+<p>In this tutorial we will interact with text editor, creates ,removes, copy , move and renaming  files and directories.</p>
+
+<h4 id="create-a-blank-file">Create a blank file</h4>
+
+<p>Let’s create blank file with <code class="highlighter-rouge">touch</code> command. we have already used this command.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>$ touch file1
+$ ls
+file1
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h4 id="create-and-write-in-file">Create and write in file.</h4>
+
+<p>Now we will use an interactive text editor. There are lots of text editor in termux</p>
+
+<p>List of few text editor</p>
+<ul>
+  <li>Vim</li>
+  <li>Emacs</li>
+  <li>micro</li>
+  <li>nano</li>
+</ul>
+
+<p>Let’s use micro editor because it’s more suitable for begginers.</p>
+
+<p>Install it by pkg</p>
+
+<p><code class="highlighter-rouge">pkg install micro -y</code></p>
+
+<p>After installation let’s write something in <em>file1</em> which we have created earlier.</p>
+
+<p>Now open that file with micro like</p>
+
+<p><code class="highlighter-rouge">micro file1</code></p>
+
+<p>afterthat write something. Just write your name and save it by ctrl+s and exit with ctrl+q</p>
+
+<p>Once you saved and exit. You can reopen that file in same way like you did before.
+<code class="highlighter-rouge">micro file1</code></p>
+
+<h4 id="create-directory">Create Directory</h4>
+
+<p>In order to create directory we use <code class="highlighter-rouge">mkdir </code> command.</p>
+
+<p>let’s create a directory named <em>termux</em>,</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>$ mkdir termux
+$ ls
+file1 termux
+</pre></td></tr></tbody></table></code></pre></div></div>
+<h4 id="copy-files-and-directories">Copy files and directories.</h4>
+
+<p>We will use <code class="highlighter-rouge">cp</code> commamd to copy files and directories.</p>
+
+<h5 id="copy-files">copy files</h5>
+
+<p>let’s create a empty directory first.</p>
+
+<p><code class="highlighter-rouge">mkdir empty-dir</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>$ mkdir empty-dir
+$ ls
+file1 empty-dir termux
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>you can see in line 3,</p>
+
+<p>now lets copy <strong>file1</strong> into <strong>empty-dir</strong></p>
+
+<p><code class="highlighter-rouge">cp file1 ./empty-dir</code></p>
+
+<p>./ represents current directory, and you know <strong>empty-dir</strong> exist in current dir.</p>
+
+<p>You can see in line 3 , there is a directory named termux.</p>
+
+<h4 id="removing-files-and-directories">Removing files and directories.</h4>
+
+<p>we use <code class="highlighter-rouge">rm</code> command to deleting files and directories.</p>
+<h5 id="removing-files">removing files</h5>
+<p>In our current directories. There is one file and directories.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>$ ls
+file1 termux
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Just use <strong>rm FILENAME</strong> to delete it.
+Here you can use path also to deleting files, if thats not in current diretories.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>$ rm file1
+$ ls 
+termux
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>You can see after executing <code class="highlighter-rouge">rm file1</code> , there’s no filename file1 in current directory.</p>
+
+<h5 id="removing-directories">Removing Directories.</h5>
+
+<p>We can  use same <code class="highlighter-rouge">rm</code> command for removing directory also, but there for removing directory there is a similar command <code class="highlighter-rouge">rmdir</code>.</p>
+
+<p>Lets remove directory with <code class="highlighter-rouge">rmdir</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ rmdir termux
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Above command has removed termux. Here since termux directory is empty that’s why it has removed.</p>
+
+<h5 id="removing-non-empty-directory">Removing non-empty directory.</h5>
+
+<p>Here we use <code class="highlighter-rouge">rm</code> with <code class="highlighter-rouge">-r</code> option.</p>
+
+<p>-r stands for recursive.</p>
+
+<p>So when directory is not empty we will use <code class="highlighter-rouge">rm -r DIR_NAME</code></p>
+
+<h4 id="whats-next-">What’s next ?</h4>
+
+<p>We will cover about termux package manager in next tutorial.</p>
+:ET
